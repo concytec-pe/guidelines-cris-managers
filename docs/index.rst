@@ -1,6 +1,6 @@
-#####################################
-OpenAIRE Guidelines for CRIS Managers
-#####################################
+#######################################
+Directrices PeruCRIS para gestores CRIS
+#######################################
 
 .. toctree::
    :maxdepth: 2
@@ -8,4 +8,4 @@ OpenAIRE Guidelines for CRIS Managers
    introduction
    cris_elements_openaire
    implementation
-
+   
