@@ -3,26 +3,26 @@
 
 Publication
 ===========
-:Description: A text based scholarly publication or publishing channel that contains results of research. CRISs typically record metadata about scholarly publications from the scope of the CRIS (institutional CRIS for the institution, funder CRIS for the funding it distributed, etc.) in the context of the research projects, infrastructure, funding, organization units and authors/contributors. This entity typically represents the granularity level of a single published item for which attribution information is attached (usually in the form of a list of authors and contributors). This entity is also used to represent publishing channels and sources: journals and book series (incl. continuing conference proceedings series). (Taken from https://doi.org/10.1016/j.procs.2014.06.008)
-:Examples: `openaire_cerif_xml_example_publications.xml <https://github.com/openaire/guidelines-cris-managers/blob/v1.1/samples/openaire_cerif_xml_example_publications.xml>`_
-:Representation: XML element ``Publication``; the rest of this section documents children of this element
-:CERIF: the ResultPublication entity (`<https://w3id.org/cerif/model#ResultPublication>`_)
+:DescripciÛn: Una publicaciÛn acadÈmica basada en texto o canal de publicaciÛn que contiene los resultados de la investigaciÛn. Los CRIS suelen registrar metadatos sobre publicaciones acadÈmicas del ·mbito de aplicaciÛn de CRIS (CRIS institucional para la instituciÛn, financiador de CRIS para la financiaciÛn que distribuye, etc.) en el contexto de los proyectos de investigaciÛn, la infraestructura, la financiaciÛn, las unidades organizativas y los autores/contribuyentes. Esta entidad representa tÌpicamente el nivel de granularidad de un solo Ìtem publicado para el cual se adjunta informaciÛn de atribuciÛn (generalmente en forma de una lista de autores y contribuyentes). Esta entidad tambiÈn se utiliza para representar canales y fuentes de publicaciÛn: revistas y series de libros (incluida la continuaciÛn de la serie de actas de conferencias). (Tomado de https://doi.org/10.1016/j.procs.2014.06.008)
+:Ejemplos: `openaire_cerif_xml_example_publications.xml <https://github.com/openaire/guidelines-cris-managers/blob/v1.1/samples/openaire_cerif_xml_example_publications.xml>`_
+:RepresentaciÛn: Elemento XML ``Publication``; el resto de esta secciÛn documenta los hijos de este elemento
+:CERIF: la entidad ResultPublication (`<https://w3id.org/cerif/model#ResultPublication>`_)
 
 
-Internal Identifier
+Identificador interno
 ^^^^^^^^^^^^^^^^^^^
-:Use: mandatory (1)
-:Representation: XML attribute ``id``
-:CERIF: the ResultPublicationIdentifier attribute (`<https://w3id.org/cerif/model#ResultPublication.ResultPublicationIdentifier>`_)
+:Uso: Obligatorio (1)
+:RepresentaciÛn: Atributo XML ``id``
+:CERIF: El atributo ResultPublicationIdentifier (`<https://w3id.org/cerif/model#ResultPublication.ResultPublicationIdentifier>`_)
 
 
-Type
+Tipo
 ^^^^
-:Description: The type of the publication
-:Use: mandatory (1)
-:Representation: XML element ``Type`` from namespace `<https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types>`_
+:DescripciÛn: The type of the publication
+:Uso: obligatorio (1)
+:RepresentaciÛn: Elemento XML ``Type`` desde el espacio de nombres `<https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types>`_
 :CERIF: the ResultPublication_Classification (`<https://w3id.org/cerif/model#ResultPublication_Classification>`_)
-:Vocabulary: Publication types extracted from the COAR Resource Types concept scheme: Types of publications as extracted from the COAR Resource Types concept scheme (http://vocabularies.coar-repositories.org/documentation/resource_types/, the term 'text' and its descendants in the hierarchy except 'patent').
+:Vocabulary: Tipos de publicaciÛn extraÌdos del esquema conceptual COAR Resource Types: Tipos de publicaciones extraÌdos del concepto de tipos de recursos COAR (http://vocabularies.coar-repositories.org/documentation/resource_types/, el tÈrmino 'text' y sus descendientes en la jerarquÌa excepto 'patent').
 
   * **text** (`<http://purl.org/coar/resource_type/c_18cf>`_): A resource consisting primarily of words for reading. Examples include books, letters, dissertations, poems, newspapers, articles, archives of mailing lists. Note that facsimiles or images of texts are still of the genre Text.
 
@@ -40,7 +40,7 @@ Type
       * **conference paper not in proceedings** (`<http://purl.org/coar/resource_type/c_18cp>`_): A conference paper that is submitted to a conference and presented to the audience. The conference paper is not published in proceedings.
       * **conference poster not in proceedings** (`<http://purl.org/coar/resource_type/c_18co>`_): A conference poster that is submitted to a conference and presented there at a poster presentation. The conference poster is not published in proceedings.
     * **lecture** (`<http://purl.org/coar/resource_type/c_8544>`_): A transcription of a talk delivered during an academic event.
-    * **letter** (`<http://purl.org/coar/resource_type/c_0857>`_): A brief description of important new research, also known as ‚Äúcommunication‚Äù. (adapted from EuroCRIS)
+    * **letter** (`<http://purl.org/coar/resource_type/c_0857>`_): A brief description of important new research, also known as ìcommunicationî. (adapted from EuroCRIS)
     * **periodical** (`<http://purl.org/coar/resource_type/c_2659>`_): A periodical is a publication issued on a regular and ongoing basis as a series of issues. (Adapted from fabio)
 
       * **journal** (`<http://purl.org/coar/resource_type/c_0640>`_): A periodical of (academic) journal articles. (Adapted from bibo)
@@ -62,8 +62,8 @@ Type
       * **memorandum** (`<http://purl.org/coar/resource_type/c_18wz>`_): It is a note, document or other communication that helps the memory by recording events or observations on a topic. A memorandum can have only a certain number of formats; it may have a format specific to an office or institution.
       * **other type of report** (`<http://purl.org/coar/resource_type/c_18wq>`_): Other types of report may include Business Plans Technical Specifications, data management plans, recommendation reports, white papers, annual reports, auditor's reports, workplace reports, census reports, trip reports, progress reports, investigative reports, budget reports, policy reports, demographic reports, credit reports, appraisal reports, inspection reports, military reports, bound reports, etc.
       * **policy report** (`<http://purl.org/coar/resource_type/c_186u>`_): A policy report is a type of report that provides an in-depth look at major policy developments and events
-      * **project deliverable** (`<http://purl.org/coar/resource_type/c_18op>`_): A project deliverable is an ‚Äúoutcome‚Äù as a result of a project that is intended to be delivered to a customer (e.g. funder). Examples of deliverable are report, document, work package or any other building block of an overall project.
-      * **report to funding agency** (`<http://purl.org/coar/resource_type/c_18hj>`_): A report to a funding agency is a document written by beneficiaries of project grants. The reporting documents can be e.g. periodic reports about progress of scientific and technical work and final report. For deliverables use ‚ÄòProject deliverable‚Äô.
+      * **project deliverable** (`<http://purl.org/coar/resource_type/c_18op>`_): A project deliverable is an ìoutcomeî as a result of a project that is intended to be delivered to a customer (e.g. funder). Examples of deliverable are report, document, work package or any other building block of an overall project.
+      * **report to funding agency** (`<http://purl.org/coar/resource_type/c_18hj>`_): A report to a funding agency is a document written by beneficiaries of project grants. The reporting documents can be e.g. periodic reports about progress of scientific and technical work and final report. For deliverables use ëProject deliverableí.
       * **research report** (`<http://purl.org/coar/resource_type/c_18ws>`_): Research Reports are reports that typically provide an in-depth study of a particular topic or describe the results of a research project.
       * **technical report** (`<http://purl.org/coar/resource_type/c_18gh>`_): A technical report is a document that records the procedure adopted and results obtained from a scientific or technical activity or investigation.
     * **research proposal** (`<http://purl.org/coar/resource_type/c_baaf>`_): documentation for grant request
@@ -129,12 +129,6 @@ PublicationDate
 :Use: optional (0..1)
 :Representation: XML element ``PublicationDate``
 :CERIF: the ResultPublication.ResPublDate attribute (`<https://w3id.org/cerif/model#ResultPublication.ResPublDate>`_)
-:Format: any of:
-
-  * year (``YYYY``) with optional time zone indication
-  * year and month (``YYYY-MM``) with optional time zone indication
-  * full date (``YYYY-MM-DD``) with optional time zone indication
-  * date and time (``YYYY-MM-DD'T'hh:mm:ss(.SSS)``) with optional time zone indication
 
 
 
@@ -198,7 +192,6 @@ DOI
 :Use: optional (0..1)
 :Representation: XML element ``DOI``
 :CERIF: the FederatedIdentifier entity (`<https://w3id.org/cerif/model#FederatedIdentifier>`_)
-:Format: regular expression ``10\.\d{4,}(\.\d+)*/[^\s]+`` (as per `<https://www.crossref.org/blog/dois-and-matching-regular-expressions/>`_)
 
 
 
@@ -240,7 +233,6 @@ ISSN
 :Use: optional, possibly multiple (0..*)
 :Representation: XML element ``ISSN``
 :CERIF: the FederatedIdentifier entity (`<https://w3id.org/cerif/model#FederatedIdentifier>`_)
-:Format: regular expression ``\d{4}-?\d{3}[\dX]`` and length between 8 and 9 characters (as per `<https://data.crossref.org/reports/help/schema_doc/4.4.1/schema_4_4_1.html#issn_t>`_)
 
 
 
@@ -263,17 +255,6 @@ ISBN
 :Use: optional, possibly multiple (0..*)
 :Representation: XML element ``ISBN``
 :CERIF: the FederatedIdentifier entity (`<https://w3id.org/cerif/model#FederatedIdentifier>`_)
-:Format: any of:
-
-  * regular expression ``978-\d+-\d+-\d+-\d`` and length of exactly 17 characters (ISBN-13, human readable form)
-  * regular expression ``978 \d+ \d+ \d+ \d`` and length of exactly 17 characters (ISBN-13, human readable form)
-  * regular expression ``979-[1-9]\d*-\d+-\d+-\d`` and length of exactly 17 characters (ISBN-13, human readable form)
-  * regular expression ``979 [1-9]\d* \d+ \d+ \d`` and length of exactly 17 characters (ISBN-13, human readable form)
-  * regular expression ``978\d{10}`` and length of exactly 13 characters (ISBN-13, concise form)
-  * regular expression ``979[1-9]\d{9}`` and length of exactly 13 characters (ISBN-13, concise form)
-  * regular expression ``\d+-\d+-\d+-[\dX]`` and length of exactly 13 characters (ISBN-10, human readable form)
-  * regular expression ``\d+ \d+ \d+ [\dX]`` and length of exactly 13 characters (ISBN-10, human readable form)
-  * regular expression ``\d{9}[\dX]`` and length of exactly 10 characters (ISBN-10, concise form)
 
 
 
@@ -444,7 +425,4 @@ ns4:Access
   * **embargoed access** (`<http://purl.org/coar/access_right/c_f1cf>`_): Embargoed access refers to a resource that is metadata only access until released for open access on a certain date. Embargoes can be required by publishers and funders policies, or set by the author (e.g such as in the case of theses and dissertations).
   * **restricted access** (`<http://purl.org/coar/access_right/c_16ec>`_): Restricted access refers to a resource that is available in a system but with some type of restriction for full open access. This type of access can occur in a number of different situations. Some examples are described below: The user must log-in to the system in order to access the resource The user must send an email to the author or system administrator to access the resource Access to the resource is restricted to a specific community (e.g. limited to a university community)
   * **metadata only access** (`<http://purl.org/coar/access_right/c_14cb>`_): Metadata only access refers to a resource in which access is limited to metadata only. The resource itself is described by the metadata, but is not directly available through the system or platform. This type of access can occur in a number of different situations. Some examples are described below: There is no electronic copy of the resource available (record links to a physical resource) The resource is only available elsewhere for a fee (record links to a subscription-based publisher version) The resource is available open access but at a different location (record links to a version at an open access publisher or archive) The resource is available elsewhere, but not in a fully open access format (record links to a read only, or other type of resources that is not permanent or in some way restricted)
-
-
-
-
+  
