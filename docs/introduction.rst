@@ -1,36 +1,28 @@
-Introduction
+Introducción
 ------------
 
-These guidelines describe the CERIF-XML profile for CRIS managers to be compatible with OpenAIRE.
+Estas directrices describen el perfil CERIF-XML para que los administradores de CRIS sean compatibles con PeruCRIS.
 
-Aim
-^^^
-The Guidelines provide orientation for CRIS managers to expose their metadata in a way that is compatible with the OpenAIRE infrastructure. 
-By implementing the Guidelines, CRIS managers support the inclusion and therefore the reuse of metadata in their systems within the OpenAIRE infrastructure. 
-For developers of CRIS platforms, the Guidelines provide guidance to add supportive functionalities for CRIS managers and users. 
-Exchange of information between individual CRIS systems and the OpenAIRE infrastructure is an example of point-to-point data exchange between CRIS systems, 
-since the OpenAIRE infrastructure is itself a CRIS system.
+Objetivo
+^^^^^^^^
+Las Directrices proporcionan orientación para que los administradores de CRIS expongan sus metadatos de forma compatible con la infraestructura de PeruCRIS. Al implementar las directrices, los gestores de CRIS apoyan la inclusión y, por tanto, la reutilización de metadatos en sus sistemas dentro de la infraestructura PeruCRIS. Para los desarrolladores de las plataformas CRIS, las directrices proporcionan orientación para añadir funcionalidades de apoyo a los gestores y usuarios de CRIS. El intercambio de información entre los distintos sistemas CRIS y la infraestructura PeruCRIS es un ejemplo de intercambio de datos punto a punto entre sistemas CRIS, ya que la propia infraestructura de PeruCRIS es un sistema CRIS.
 
 CERIF-CRIS
 ^^^^^^^^^^
-CERIF (Common European Research Information Format) is a standard data model for research information and a recommendation by the European Union to Member States. 
-The care and custody of CERIF was handed over by the European Union to euroCRIS (http://www.eurocris.org), 
-a non-for-profit organisation dedicated to the interoperability of Research Information Systems (CRISs). 
-In addition to a domain model and a formal data model, CERIF includes a mechanism to construct XML profiles (specialized subsets) for specific information interchange scenarios. 
-The OpenAIRE profile of CERIF supports harvesting and importing metadata from CRIS systems. 
+CERIF (Common European Research Information Format) es un modelo de datos estándar de información sobre investigación y una recomendación de la Unión Europea a los Estados miembros. La Unión Europea transfirió el cuidado y la custodia del CERIF a euroCRIS (http://www.eurocris.org), una organización sin ánimo de lucro dedicada a la interoperabilidad de los sistemas de información sobre investigación (CRIS). Además de un modelo de dominio y un modelo de datos formal, CERIF incluye un mecanismo para construir perfiles XML (subconjuntos especializados) para escenarios específicos de intercambio de información. El perfil PeruCRIS de CERIF soporta la recolección e importación de metadatos desde los sistemas CRIS.
 
-Acknowledgements
+Agradecimientos
 ^^^^^^^^^^^^^^^^
 
-We wish to acknowledge the following contributors and also those who provided feedback outside the formal editing and reviewing work. 
+Deseamos agradecer a los siguientes colaboradores y también a aquellos que nos proporcionaron sus comentarios fuera de la edición formal y del trabajo de revisión.
 
 
-**Editors**
+**Editores**
 
-- Jan DvoÅ™Ã¡k |ORCIDlogo| `https://orcid.org/0000-0001-8985-152X <https://orcid.org/0000-0001-8985-152X>`_ (Charles University, Czechia + euroCRIS)
-- Andrea Bollini |ORCIDlogo| `https://orcid.org/0000-0002-9029-1854 <https://orcid.org/0000-0002-9029-1854>`_ (4Science, Italy + euroCRIS)
-- Laurent RÃ©my |ORCIDlogo| `https://orcid.org/0000-0003-1143-2645 <https://orcid.org/0000-0003-1143-2645>`_ (IS4RI, France + euroCRIS)
-- Jochen Schirrwagen |ORCIDlogo| `https://orcid.org/0000-0002-0458-1004 <https://orcid.org/0000-0002-0458-1004>`_ (Bielefeld University, Germany + OpenAIRE)
+- César Olivares |ORCIDlogo| `https://orcid.org/0000-0003-2678-3544 <https://orcid.org/0000-0003-2678-3544>`_ (CONCYTEC)
+- Abel Del Carpio |ORCIDlogo| `https://orcid.org/0000-0003-4469-6516 <https://orcid.org/0000-0003-4469-6516>`_ (CONCYTEC)
+- Francisco Talavera (World Bank)
+- Julio Santillán-Aldana |ORCIDlogo| `https://orcid.org/0000-0002-1906-2370 <https://orcid.org/0000-0002-1906-2370>`_ (World Bank)
 
 .. |ORCIDlogo| image:: _static/orcid_128x128.png
    :height: 10pt
@@ -39,19 +31,18 @@ We wish to acknowledge the following contributors and also those who provided fe
 
 **Contributors**
 
-- Wilko Steinhof, DANS, The Netherlands
+- Jan Dvorak |ORCIDlogo| `https://orcid.org/0000-0001-8985-152X <https://orcid.org/0000-0001-8985-152X>`_ (Charles University, Czechia + euroCRIS)
+- Pablo de Castro |ORCIDlogo| `https://orcid.org/0000-0001-6300-1033 <https://orcid.org/0000-0001-6300-1033>`_ (OpenAIRE + LIBER)
 
 
 Versions
 ^^^^^^^^
 
-- 1.1, June 2018, `doi:10.5281/zenodo.1298650 <https://doi.org/10.5281/zenodo.1298650>`_
-
-- 1.0, June 2015, `doi:10.5281/zenodo.17065 <https://doi.org/10.5281/zenodo.17065>`_
+- 1.0, Enero 2019
 
 
-Feedback
-^^^^^^^^
+Comentarios
+^^^^^^^^^^^
 
-We welcome your comments and suggestions. 
-Please see https://github.com/openaire/guidelines-cris-managers#contributing
+Agradecemos sus comentarios y sugerencias. 
+Por favor, ver https://github.com/openaire/guidelines-cris-managers#contributing
