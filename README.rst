@@ -1,14 +1,14 @@
-OpenAIRE Guidelines for CRIS Managers based on CERIF-XML
+Directrices para sistemas CRIS en Perú
 ========================================================
 
-This repository contains the project of the **OpenAIRE Guidelines for CRIS Managers 1.1**, 
+Este repositorio contiene el proyecto de **Directrices SINACYT para Gestores CRIS en Perú**, basado en el OpenAIRE Guidelines for CRIS Managers.
 
 .. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.1298650.svg
    :target: https://doi.org/10.5281/zenodo.1298650
    :alt: v.1.1 DOI
 
 
-Contents
+Contenidos
 ~~~~~~~~
 
 .. image:: https://travis-ci.org/openaire/guidelines-cris-managers.svg?branch=master
@@ -20,18 +20,19 @@ Contents
    :alt: Documentation Status
 
 
-Accompanying artefacts
+Seguimiento de objetos
 ~~~~~~~~~~~~~~~~~~~~~~
 
-* XML Schema: `<schemas/openaire-cerif-profile.xsd>`_
-* Prototype validator: a project at `<https://github.com/jdvorak001/openaire-cris-validator#readme>`_
-* Examples: map at `<docs/_illustrations/OpenAIRE-examples-map.png>`_, files at `<samples/>`_
+* Esquema XML: `<schemas/openaire-cerif-profile.xsd>`_
+* Validador del prototipo: proyecto en `<https://github.com/jdvorak001/openaire-cris-validator#readme>`_
+* Ejemplos: mapa en `<docs/_illustrations/OpenAIRE-examples-map.png>`_, files at `<samples/>`_
 
 
-Contributing
+Contribuciones
 ~~~~~~~~~~~~
 
-Your feedback, esp. as a CRIS manager or developer of a CRIS platform, is important for us. You can provide us feedback using the following channels:
+Sus comentarios, especialmente como gestor de CRIS o desarrollador de una plataforma CRIS, son importantes para nosotros. Puede enviarnos sus comentarios a través de los siguientes canales:
 
-* by creating an `issue in the github repository <https://github.com/openaire/guidelines-cris-managers/issues>`_ (you need to have a github account);
-* by sending an e-mail: guidelines@openaire.eu
+* creando una nueva `versión en el repositorio github <https://github.com/openaire/guidelines-cris-managers/issues>`_ (es necesario tener una cuenta github);
+* enviando un correo electrónico a: gestion.metadatos@concytec.gob.pe
+
