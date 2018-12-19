@@ -512,5 +512,60 @@
                 <setSpec>openaire_cris_publications</setSpec>
             </header>
         </record>
+		<record>
+			<header>
+				<identifier>oai:cris.example.org:Publications/6192</identifier>
+				<datestamp>2018-01-07T14:00:00Z</datestamp>
+				<setSpec>openaire_cris_publications</setSpec>
+			</header>
+			<metadata>
+				<Publication xmlns="https://www.openaire.eu/cerif-profile/1.1/" id="6192"><!--tesis-->
+					<Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Publication_Types">http://purl.org/coar/resource_type/c_46ec<!--tesis--></Type>
+						<Language>sp</Language>
+					<Title xml:lang="sp">Implementación de un sistema de gestión de la investigación para la especialidad de Ingeniería Informática de la PUCP</Title>
+					<PublicationDate>2015-07-25</PublicationDate>
+					<Handle>http://tesis.pucp.edu.pe/repositorio/handle/123456789/6192</Handle>
+					<Authors>
+						<Author>
+							<Person id="2123455"><!--Villar García, Gustavo-->
+								<PersonName>
+									<FamilyNames>Villar García</FamilyNames>
+									<FirstNames>Gustavo</FirstNames>
+								</PersonName><!--falta definir al asesor de tesis (advisor)-->
+							</Person>
+						</Author>
+					</Authors>
+					<License scheme="https://www.openaire.eu/cerif-profile/vocab/LicenseTypes#">CCAttribution(CC BY-NC-ND)</License>
+					<Abstract xml:lang="sp">La investigación es una de las funciones más importantes de la PUCP, en la cual participan investigadores y alumnos. De estas investigaciones se obtienen distintos resultados como publicaciones, conferencias, tesis, entre otros. Para obtener información acerca de las investigaciones que han sido o están siendo realizadas en la PUCP, se puede hacer uso de algunas herramientas disponibles en la web. Sin embargo, se puede apreciar que la información disponible es escasa y se encuentra dispersa entre varias herramientas. </Abstract>
+
+					<OriginatesFrom>
+						<Project id="112345"><!-- OpenAIREplus -->
+							<Acronym>OpenAIREplus</Acronym>
+							<Title xml:lang="en">2nd-Generation Open Access Infrastructure for Research in Europe</Title>
+							<Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#ProjectReference">283595</Identifier>
+							<StartDate>2011-12-01</StartDate>
+							<EndDate>2014-05-31</EndDate>
+							<Funded>
+								<By>
+									<OrgUnit id="310001">
+										<Acronym>EC</Acronym>
+										<Name xml:lang="en">European Commission</Name>
+										<Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#FundRefID">http://dx.doi.org/10.13039/501100000780</Identifier>
+									</OrgUnit>
+								</By>
+								<As>
+									<Funding id="612352"/><!-- FP7 / Capacities / Research Infrastructures / OpenAIREplus -->
+								</As>
+							</Funded>
+						</Project>
+					</OriginatesFrom>
+				<Publisher>
+						<Publishers>
+							<OrgUnit id="1234">
+								<Name>Pontificia Universidad Católica del Perú</Name></OrgUnit></Publishers></Publisher>
+					<Access endDate="2015-07-25" xmlns="http://purl.org/coar/access_right">http://purl.org/coar/access_right/c_abf2<!--openAccess--></Access>
+				</Publication>
+			</metadata>
+		</record>
 	</ListRecords>
 </OAI-PMH>
