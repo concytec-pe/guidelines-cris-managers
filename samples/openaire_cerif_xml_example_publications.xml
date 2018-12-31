@@ -535,13 +535,6 @@
 							</Person>
 						</Author>
 					</Authors>
-                    <Publishers>
-                        <Publisher>
-                            <OrgUnit id="1234">
-                                <Name xml:lang="es">Pontificia Universidad Católica del Perú</Name>
-                            </OrgUnit>
-                        </Publisher>
-                    </Publishers>
 					<License scheme="https://www.openaire.eu/cerif-profile/vocab/LicenseTypes#">CCAttribution(CC BY-NC-ND)</License>
 					<Abstract xml:lang="sp">La investigación es una de las funciones más importantes de la PUCP, en la cual participan investigadores y alumnos. De estas investigaciones se obtienen distintos resultados como publicaciones, conferencias, tesis, entre otros. Para obtener información acerca de las investigaciones que han sido o están siendo realizadas en la PUCP, se puede hacer uso de algunas herramientas disponibles en la web. Sin embargo, se puede apreciar que la información disponible es escasa y se encuentra dispersa entre varias herramientas. </Abstract>
 
@@ -566,7 +559,10 @@
 							</Funded>
 						</Project>
 					</OriginatesFrom>
-
+				<Publisher>
+						<Publishers>
+							<OrgUnit id="1234">
+								<Name>Pontificia Universidad Católica del Perú</Name></OrgUnit></Publishers></Publisher>
 					<Access endDate="2015-07-25" xmlns="http://purl.org/coar/access_right">http://purl.org/coar/access_right/c_abf2<!--openAccess--></Access>
 				</Publication>
 			</metadata>
