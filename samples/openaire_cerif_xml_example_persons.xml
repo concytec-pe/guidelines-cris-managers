@@ -342,7 +342,18 @@
                     <REGINARecord id="4421">
                     	<StartDate>20160610</StartDate>
                     	<EndDate>20180610</EndDate></REGINARecord>
-                    
+                    <AcademicDegree scheme="https://sunedu.gob.pe/vocab/tesis_degree">
+                    	<!--elemento raíz e hijos nuevos agregados para los datos de nivel académico. Se requiere vocaluario controlado de SUNEDU, se colocan los nombres como ejemplo--><DegreeName>Doctorado</DegreeName>
+                    	<DegreeTitle>Doctor en Neuroinmunología</DegreeTitle><DegreeGrantor>Universidade Federal Fluminense (UFF)</DegreeGrantor>
+                    	<DegreeCountry scheme="https://www.loc.gov/marc/countries/">bl<!--Brasil--></DegreeCountry></AcademicDegree>
+                   	<AcademicDegree scheme="https://sunedu.gob.pe/vocab/tesis_degree">
+                    	<!--elemento raíz e hijos nuevos agregados para los datos de nivel académico. Se requiere vocaluario controlado de SUNEDU, se colocan los nombres como ejemplo--><DegreeName>Maestría</DegreeName>
+                    	<DegreeTitle>Mestre en Neuroimunología celular</DegreeTitle><DegreeGrantor>Universidade Federal Fluminense (UFF)</DegreeGrantor>
+                    	<DegreeCountry scheme="https://www.loc.gov/marc/countries/">bl<!--Brasil--></DegreeCountry></AcademicDegree>
+                    <AcademicDegree scheme="https://sunedu.gob.pe/vocab/tesis_degree">
+                    	<!--elemento raíz e hijos nuevos agregados para los datos de nivel académico. Se requiere vocaluario controlado de SUNEDU, se colocan los nombres como ejemplo--><DegreeName>Bachiller</DegreeName>
+                    	<DegreeTitle>Bachiller en Ciencias Biológicas </DegreeTitle><DegreeGrantor>Universidad Nacional de San Agustín</DegreeGrantor>
+                    	<DegreeCountry scheme="https://www.loc.gov/marc/countries/">pe<!--Perú--></DegreeCountry></AcademicDegree>
                 </Person>
             </metadata>
         </record>
