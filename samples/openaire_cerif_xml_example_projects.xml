@@ -291,11 +291,16 @@
 							</OrgUnit>
 						</By>
 						<As>
-							<Funding id="167-2017"><!---->
+							<Funding id="167-2017"><!--E041 / 167-2017-->
 								<Type xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#Contract</Type>
-								<Name xml:lang="es">Programa de Valorización de la Biodiversidad</Name>
+								<Name xml:lang="es">VARIABILIDAD GENÉTICA Y ECOLOGÍA ESPACIAL DEL GUANACO (LAMA GUANICOE CACSILENSIS) EN EL PERÚ</Name>
 								<Amount currency="PEN">398,350</Amount>
-								<Identifier type="https://concyetc.gopb.pe/vocab/Esquema_Financiero">https://concyetc.gopb.pe/vocab/Esquema_Financiero#E041<!--Proyectos de Investigación Básica y Aplicada--></Identifier>
+								<PartOf>
+									<Funding id="E-041"><!--E041-->
+										<Type xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#FundingProgramme</Type>
+										<Name xml:lang="es">Proyectos de Investigación Básica y Aplicada</Name>
+									</Funding>
+								</PartOf>
 							</Funding>
 						</As>
 					</Funded>
