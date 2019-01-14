@@ -215,10 +215,10 @@
                 <Type scheme="https://concytec.gob.pe/vocab/OrganisationTypes">https://concytec.gob.pe/vocab/OrganisationTypes#HigherEducation_public</Type>
                 <Acronym>UNITRU</Acronym>
                 <Name xml:lang="es">Universidad Nacional de Trujillo</Name>
-                <Identifier type="http://www.sunat.gob.pe/"><!--RUC-->20172557628</Identifier>
-                <Identifier type="http://www.isni.org/"><!-- ISNI -->0000 0001 2223 9184</Identifier>
+                <Identifier type="http://www.sunat.gob.pe/"><!--RUC, por definir-->20172557628</Identifier>
+                <ISNI>0000 0001 2223 9184</ISNI>
                 <ElectronicAddress>http://www.unitru.edu.pe/</ElectronicAddress>
-                <Ubigeo scheme="http://webinei.inei.gob.pe:8080/sisconcode/publico.htm#"><!--especificar el schema a utilizar--><Region>13<!--La Libertad--></Region><Province>1301<!--Trujillo--></Province>
+                <Ubigeo scheme="http://webinei.inei.gob.pe:8080/sisconcode/publico.htm#"><!--por definir--><Region>13<!--La Libertad--></Region><Province>1301<!--Trujillo--></Province>
                 	<Country scheme="https://www.loc.gov/standards/codelists/countries.xml">pe<!--Perú--></Country></Ubigeo>
                 </OrgUnit>
             </metadata>
@@ -237,10 +237,10 @@
                 <PartOf>
                 <OrgUnit id="3298975">
 					<Name xml:lang="es">Gobierno Regional de Loreto</Name>
-					<Identifier type="http://www.sunat.gob.pe/"><!--RUC-->20493196902</Identifier>
+					<Identifier type="http://www.sunat.gob.pe/"><!--RUC, por definir-->20493196902</Identifier>
 				</OrgUnit>
                 </PartOf>
-                <Ubigeo scheme="http://webinei.inei.gob.pe:8080/sisconcode/publico.htm#"><!--especificar el schema a utilizar--><Region>16<!--Loreto--></Region><Province>1603<!--Loreto--></Province>
+                <Ubigeo scheme="http://webinei.inei.gob.pe:8080/sisconcode/publico.htm#"><!--por definir--><Region>16<!--Loreto--></Region><Province>1603<!--Loreto--></Province>
                 	<Country scheme="https://www.loc.gov/standards/codelists/countries.xml">pe<!--Perú--></Country></Ubigeo>
                 </OrgUnit>
             </metadata>
