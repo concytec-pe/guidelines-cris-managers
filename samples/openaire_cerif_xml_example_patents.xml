@@ -166,22 +166,21 @@
 			</header>
 			<metadata>
 				<Patent xmlns="https://www.openaire.eu/cerif-profile/1.1/" id="711234"><!--PROCESO INDUSTRIAL PARA LA OBTENCION DE BIODIESEL-->
-					<Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Patent_Types">http://purl.org/coar/resource_type/c_15cd</Type>
+					<Type xmlns="https://www.openaire.eu/cerif-profile/vocab/COAR_Patent_Types">http://purl.org/coar/resource_type/c_15cd<!--Se requiere extender este elemento para distinguir entre tipos de patentes (pantente propiamente dicha o modelo de utilidad)--></Type>
 					<Title xml:lang="es ">PROCESO INDUSTRIAL PARA LA OBTENCION DE BIODIESEL</Title>
-					
 					<RegistrationDate>2006-07-10</RegistrationDate>
 					<ApprovalDate>2010-09-21</ApprovalDate>
 					<CountryCode>pe</CountryCode>
 					<PatentNumber>000819-2006</PatentNumber>
 					<Inventors>
-                        <Inventor>
-                            <Person id="2001001">
-                                <PersonName>
-                                    <FamilyNames>Abusayeh Giha</FamilyNames>
-                                    <FirstNames>Samir George</FirstNames>
-                                </PersonName>
-                            </Person>
-                        </Inventor>
+                        			<Inventor>
+                            				<Person id="2001001">
+                                				<PersonName>
+                                    					<FamilyNames>Abusayeh Giha</FamilyNames>
+                                   					<FirstNames>Samir George</FirstNames>
+                                				</PersonName>
+                            				</Person>
+                        			</Inventor>
 					</Inventors>
 					<Holders>
 						<Holder>
@@ -190,10 +189,8 @@
 							</OrgUnit>
 						</Holder>
 					</Holders>
-					<PatentClass>Patente de invención</PatentClass>
-					<CurrentStatus>Otorgado<!--vocabulario controlado--><StatusDate>2010-09-21</StatusDate>
-					</CurrentStatus>
-
+					<Subject scheme="http://data.epo.org/linked-data/def/cpc/scheme">https://data.epo.org/linked-data/def/cpc/C10L-102<!--Liquid carbonaceous fuels--></Subject>
+					<Subject scheme="http://data.epo.org/linked-data/def/cpc/scheme">https://data.epo.org/linked-data/def/cpc/C11C-310<!--Fats, oils or fatty acids obtained by chemical modification of fats, oils or fatty acids--></Subject>	
 				</Patent>
 			</metadata>
 		</record>
