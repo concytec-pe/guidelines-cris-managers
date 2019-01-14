@@ -340,7 +340,6 @@
                     	<!--considerar si se mantiene estos datos como elemento --><Region>04<!--Arequipa--></Region>
                     	<Province>0401</Province><!--Arequipa-->
                     </Ubigeo>
-                    </PersonalData>
                     <DINARecord id="41717"><!--Evaluar si se considerará como un campo propio o como un enlace a la ficha DINA en el elemento ElectronicAddress-->
                     	<CourseCRI Status="A"><!-- considerar agregar una entidad Qualifications para Person--><!--Aprobado--><Date>20180926</Date></CourseCRI></DINARecord>
                     <REGINARecord id="4421"><!-- considerar agregar una entidad Qualifications para Person-->
