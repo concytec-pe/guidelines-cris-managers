@@ -52,20 +52,20 @@
 					<Acronym>GC</Acronym>
 					<Name xml:lang="es">Cromatógrafo de gases con detector de flama o llama</Name>
 					
-					<Identifier type="identificador único que otorga la institución (patrimonial)">F.5618</Identifier><Owner>
+					<Identifier type="identificador único que otorga la institución (patrimonial)">F.5618</Identifier>
+					<Description xml:lang="es">Equipos necesarios para su funcionamiento: computadora, impresora, UPS, estabilizador, deshumedecedor<!--Equipos accesorios para el funcionamiento del equipo--></Description>
+					<Owner>
 						<OrgUnit id="112345">
 							<Name xml:lang="es">Instituto de Investigaciones de la Amazonia Peruana</Name>
 						</OrgUnit>
-						</Owner>
-						<Specifications>
-							<Brand>Emerson<!--Marca del equipo--></Brand>
-							<Model>450GC<!--Modelo del equipo--></Model>
-							<ModelNumber>GC0806B023<!--Número de serie del equipo--></ModelNumber>
-							<MadeIn scheme="http://www.iso.org/iso/country_codes/iso_3166_code_lists/country_names_and_code_elements">us<!--País de procedencia del equipo-->
-							</MadeIn>
-							<Amount currency="USD">130000<!--Monto de adquisición del equipo-->
-							</Amount>
-							<Uses>Computadora, impresora, UPS, estabilizador, deshumedecedor<!--Equipos accesorios para el funcionamiento del equipo--></Uses></Specifications>
+					</Owner>
+					<Brand>Emerson<!--Marca del equipo--></Brand>
+					<Model>450GC<!--Modelo del equipo--></Model>
+					<SerialNumber>GC0806B023<!--Número de serie del equipo--></SerialNumber>
+					<ContryOfOrigin scheme="http://www.iso.org/iso/country_codes/iso_3166_code_lists/country_names_and_code_elements">us<!--País de procedencia del equipo-->
+					</ContryOfOrigin>
+					<NetPrice currency="USD">130000<!--Monto de adquisición del equipo-->
+					</NetPrice>
 				</Equipment>
 			</metadata>
 		</record>
