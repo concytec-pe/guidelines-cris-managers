@@ -308,6 +308,57 @@
                 </Person>
             </metadata>
         </record>
-
+ <record>
+            <header>
+                <identifier>oai:cris.example.org:Persons/20181231</identifier>
+                <datestamp>2018-01-07T14:00:00Z</datestamp>
+                <setSpec>openaire_cris_persons</setSpec>
+            </header>
+            <metadata>
+                <Person xmlns="https://www.openaire.eu/cerif-profile/1.1/" id="20181231">
+                    <PersonName>
+                        <FamilyNames>Mejía García</FamilyNames>
+                        <FirstNames>Telmo Agustín</FirstNames>
+                    </PersonName>
+                    <Gender>m<!--Masculino--></Gender>
+                    <ORCID>https://orcid.org/0000-0001-6150-3056</ORCID>
+                    <ScopusAuthorID>15750919900</ScopusAuthorID>
+                    <ElectronicAddress>mailto:telmo.mejia@roxtel.pe</ElectronicAddress>
+                    <Affiliation>
+                    	<OrgUnit id="310002">
+                    		<Name xml:lang="es">CENTRO DE INVESTIGACION EN NEUROBIOLOGIA CELULAR ROXTEL AREQUIPA - CINC ROXTEL</Name><!--Falta indicar que es su institución principal y si trabaja actualmente; o incluir fechas para las afiliaciones-->
+                    	</OrgUnit>
+                    </Affiliation>
+                    <Affiliation>
+                    	<OrgUnit id="310652">
+                    		<Name xml:lang="es">UNIVERSIDAD NACIONAL DE SAN AGUSTIN</Name>
+                    	</OrgUnit>
+                    </Affiliation>
+                    <CountryOfCitizenship>pe</CountryOfCitizenship>
+                    <DNI>12870785</DNI>
+                    <Ubigeo scheme="http://webinei.inei.gob.pe:8080/sisconcode/publico.htm#">
+                    	<!--considerar si se mantiene estos datos como elemento --><Region>04<!--Arequipa--></Region>
+                    	<Province>0401</Province><!--Arequipa-->
+                    </Ubigeo>
+                    <DINARecord id="41717"><!--Evaluar si se considerará como un campo propio o como un enlace a la ficha DINA en el elemento ElectronicAddress-->
+                    	<CourseCRI Status="A"><!-- considerar agregar una entidad Qualifications para Person--><!--Aprobado--><Date>20180926</Date></CourseCRI></DINARecord>
+                    <REGINARecord id="4421"><!-- considerar agregar una entidad Qualifications para Person-->
+                    	<StartDate>20160610</StartDate>
+                    	<EndDate>20180610</EndDate></REGINARecord>
+                    <AcademicDegree scheme="https://sunedu.gob.pe/vocab/tesis_degree">
+                    	<!--Para estos datos considerar la relación a través de cfExpSkills--><DegreeName>Doctorado</DegreeName>
+                    	<DegreeTitle>Doctor en Neuroinmunología</DegreeTitle><DegreeGrantor>Universidade Federal Fluminense (UFF)</DegreeGrantor>
+                    	<DegreeCountry scheme="https://www.loc.gov/marc/countries/">bl<!--Brasil--></DegreeCountry></AcademicDegree>
+                   	<AcademicDegree scheme="https://sunedu.gob.pe/vocab/tesis_degree">
+                    	<!--elemento raíz e hijos nuevos agregados para los datos de nivel académico. Se requiere vocaluario controlado de SUNEDU, se colocan los nombres como ejemplo--><DegreeName>Maestría</DegreeName>
+                    	<DegreeTitle>Mestre en Neuroimunología celular</DegreeTitle><DegreeGrantor>Universidade Federal Fluminense (UFF)</DegreeGrantor>
+                    	<DegreeCountry scheme="https://www.loc.gov/marc/countries/">bl<!--Brasil--></DegreeCountry></AcademicDegree>
+                    <AcademicDegree scheme="https://sunedu.gob.pe/vocab/tesis_degree">
+                    	<!--elemento raíz e hijos nuevos agregados para los datos de nivel académico. Se requiere vocaluario controlado de SUNEDU, se colocan los nombres como ejemplo--><DegreeName>Bachiller</DegreeName>
+                    	<DegreeTitle>Bachiller en Ciencias Biológicas </DegreeTitle><DegreeGrantor>Universidad Nacional de San Agustín</DegreeGrantor>
+                    	<DegreeCountry scheme="https://www.loc.gov/marc/countries/">pe<!--Perú--></DegreeCountry></AcademicDegree>
+                </Person>
+            </metadata>
+        </record>
 	</ListRecords>
 </OAI-PMH>
