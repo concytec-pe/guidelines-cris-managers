@@ -44,6 +44,34 @@
 				</Equipment>
 			</metadata>
 		</record>
-
+		<record>
+			<header>
+				<identifier>oai:cris.example.org:Equipments/987654321</identifier>
+				<datestamp>2018-01-07T14:00:00Z</datestamp>
+				<setSpec>openaire_cris_equipments</setSpec>
+			</header>
+			<metadata>
+				<Equipment xmlns="https://www.openaire.eu/cerif-profile/1.1/" id="987654321">
+					<Type scheme="https://www.concytec.gob.pe/vocab/equipment_types">https://www.concytec.gob.pe/vocab/equipment_types/B<!--Cromatógrafos--></Type>
+					<Acronym>GC</Acronym>
+					<Name xml:lang="es">Cromatógrafo de gases con detector de flama o llama</Name>
+					
+					<Identifier type="identificador único que otorga la institución (patrimonial)">F.5618</Identifier>
+					<Description xml:lang="es">Equipos necesarios para su funcionamiento: computadora, impresora, UPS, estabilizador, deshumedecedor<!--Equipos accesorios para el funcionamiento del equipo--></Description>
+					<Owner>
+						<OrgUnit id="112345">
+							<Name xml:lang="es">Instituto de Investigaciones de la Amazonia Peruana</Name>
+						</OrgUnit>
+					</Owner>
+					<Brand>Emerson<!--Marca del equipo--></Brand>
+					<Model>450GC<!--Modelo del equipo--></Model>
+					<SerialNumber>GC0806B023<!--Número de serie del equipo--></SerialNumber>
+					<ContryOfOrigin scheme="http://www.iso.org/iso/country_codes/iso_3166_code_lists/country_names_and_code_elements">us<!--País de procedencia del equipo-->
+					</ContryOfOrigin>
+					<NetPrice currency="USD">130000<!--Monto de adquisición del equipo-->
+					</NetPrice>
+				</Equipment>
+			</metadata>
+		</record>
 	</ListRecords>
 </OAI-PMH>
