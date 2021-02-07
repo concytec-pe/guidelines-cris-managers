@@ -204,6 +204,46 @@
                 </OrgUnit>
             </metadata>
         </record>
-        
+        <record>
+            <header>
+                <identifier>oai:cris.example.org:OrgUnits/3498765</identifier>
+                <datestamp>2018-01-07T14:00:00Z</datestamp>
+                <setSpec>openaire_cris_orgunits</setSpec>
+            </header>
+            <metadata>
+                <OrgUnit xmlns="https://www.openaire.eu/cerif-profile/1.1/" id="3498765">
+                <Type scheme="https://concytec.gob.pe/vocab/OrganisationTypes">https://concytec.gob.pe/vocab/OrganisationTypes#HigherEducation_public</Type>
+                <Acronym>UNITRU</Acronym>
+                <Name xml:lang="es">Universidad Nacional de Trujillo</Name>
+                <Identifier type="http://www.sunat.gob.pe/"><!--RUC, por definir-->20172557628</Identifier>
+                <ISNI>0000 0001 2223 9184</ISNI>
+                <ElectronicAddress>http://www.unitru.edu.pe/</ElectronicAddress>
+                <Ubigeo scheme="http://webinei.inei.gob.pe:8080/sisconcode/publico.htm#"><!--por definir--><Region>13<!--La Libertad--></Region><Province>1301<!--Trujillo--></Province>
+                	<Country scheme="https://www.loc.gov/standards/codelists/countries.xml">pe<!--Perú--></Country></Ubigeo>
+                </OrgUnit>
+            </metadata>
+        </record>
+        <record>
+            <header>
+                <identifier>oai:cris.example.org:OrgUnits/3400001</identifier>
+                <datestamp>2018-01-07T14:00:00Z</datestamp>
+                <setSpec>openaire_cris_orgunits</setSpec>
+            </header>
+            <metadata>
+                <OrgUnit xmlns="https://www.openaire.eu/cerif-profile/1.1/" id="3400001">
+                <Type scheme="https://concytec.gob.pe/vocab/OrganisationTypes">https://concytec.gob.pe/vocab/OrganisationTypes#HealthInstitute_public</Type>
+                <Name xml:lang="es">Dirección Regional de Salud Loreto</Name>
+                <ElectronicAddress>http://www.diresaloreto.gob.pe/portal/</ElectronicAddress>
+                <PartOf>
+                <OrgUnit id="3298975">
+					<Name xml:lang="es">Gobierno Regional de Loreto</Name>
+					<Identifier type="http://www.sunat.gob.pe/"><!--RUC, por definir-->20493196902</Identifier>
+				</OrgUnit>
+                </PartOf>
+                <Ubigeo scheme="http://webinei.inei.gob.pe:8080/sisconcode/publico.htm#"><!--por definir--><Region>16<!--Loreto--></Region><Province>1603<!--Loreto--></Province>
+                	<Country scheme="https://www.loc.gov/standards/codelists/countries.xml">pe<!--Perú--></Country></Ubigeo>
+                </OrgUnit>
+            </metadata>
+        </record>
 	</ListRecords>
 </OAI-PMH>
