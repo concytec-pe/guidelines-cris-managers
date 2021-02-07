@@ -254,6 +254,74 @@
 				</Project>
 			</metadata>
 		</record>
-
+<record>
+			<header>
+				<identifier>oai:cris.example.org:Projects/110001</identifier>
+				<datestamp>2018-01-07T14:00:00Z</datestamp>
+				<setSpec>openaire_cris_projects</setSpec>
+			</header>
+			<metadata>
+				<Project xmlns="https://www.openaire.eu/cerif-profile/1.1/" id="110001">
+					<Type scheme="https://bancoproyectos.gob.pe/vocab/project_types">Proyectos de investigación y desarrollo<!--Falta definir el subtipo de proyecto, repetible?--></Type>
+					<Title xml:lang="es">VARIABILIDAD GENÉTICA Y ECOLOGÍA ESPACIAL DEL GUANACO (LAMA GUANICOE CACSILENSIS) EN EL PERÚ</Title>
+					<Identifier type="https://w3id.org/cerif/vocab/IdentifierTypes#ProjectReference">167-2017 <!--código del proyecto - revisar si es igual al número de contrato--></Identifier>
+					<Identifier type="">http://sig-consultas.cienciactiva.gob.pe:8082/QueryProjects/pages/project/project-detail.xhtml?r2d2=f95ef40d4998a957&c3po=50b454805dfe1331-consultas.cienciactiva.gob.pe:8082/QueryProjects/pages/project/project-detail.xhtml?r2d2=f95ef40d4998a957&c3po=50b454805dfe1331</Identifier>
+					<StartDate>2018-02-08</StartDate>
+					<EndDate>2018-03-15</EndDate>
+					<Consortium>
+						<Contractor>
+							<OrgUnit id="311234">
+								<Acronym>CONOPA</Acronym>
+								<Name xml:lang="es">NSTITUTO DE INVESTIGACION Y DESARROLLO DE CAMELIDOS SUDAMERICANOS</Name>
+							</OrgUnit>
+						</Contractor>
+					</Consortium>
+					<Team>
+					<PrincipalInvestigator>
+					<Person id="1897544">
+					<PersonName>
+						<FamilyNames>Collins Wheeler</FamilyNames>
+						<FirstNames>Jane</FirstNames>
+					</PersonName>
+						</Person></PrincipalInvestigator></Team>
+					<Funded>
+						<By>
+							<OrgUnit id="310099">
+								<Acronym>FONDECYT</Acronym>
+								<Name xml:lang="es">Fondo Nacional de Desarrollo Científico, Tecnológico y de Innovación Tecnológica</Name>
+							</OrgUnit>
+						</By>
+						<As>
+							<Funding id="167-2017"><!--E041 / 167-2017-->
+								<Type xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#Contract</Type>
+								<Name xml:lang="es">VARIABILIDAD GENÉTICA Y ECOLOGÍA ESPACIAL DEL GUANACO (LAMA GUANICOE CACSILENSIS) EN EL PERÚ</Name>
+								<Amount currency="PEN">398350</Amount>
+								<PartOf>
+									<Funding id="E-041"><!--E041-->
+										<Type xmlns="https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types">https://www.openaire.eu/cerif-profile/vocab/OpenAIRE_Funding_Types#FundingProgramme</Type>
+										<Name xml:lang="es">Proyectos de Investigación Básica y Aplicada</Name>
+									</Funding>
+								</PartOf>
+							</Funding>
+						</As>
+					</Funded>
+					<Subject scheme="https://www.ocde.com/vocab/areasocde"><!--ejemplo de disciplina OCDE - se ha simulado un vocabulario controlado para representar a Conservación de la biodiversidad -->http://purl.org/ocde/areas/200588</Subject>
+					<Subject scheme="http://www.geodir.co/recursos/ubigeo-inei-peru.html"><!--ejemplo de nombre geográfico para Arequipa-->040101</Subject>
+					<Subject scheme="http://www.geodir.co/recursos/ubigeo-inei-peru.html"><!--ejemplo de nombre geográfico para Huancaveli-->090101</Subject>
+					<Subject scheme="http://www.geodir.co/recursos/ubigeo-inei-peru.html"><!--ejemplo de nombre geográfico para Ica-->110101</Subject>
+					<Subject scheme="http://www.geodir.co/recursos/ubigeo-inei-peru.html"><!--ejemplo de nombre geográfico para La Libertad-->130101</Subject>
+					<Subject scheme="http://www.geodir.co/recursos/ubigeo-inei-peru.html"><!--ejemplo de nombre geográfico para Lima-->150101</Subject><Subject scheme="http://id.loc.gov/authorities/subjects/sh85089606"><!--ejemplo de nombre geográfico Puno-->210101</Subject>
+					<Subject scheme="http://www.geodir.co/recursos/ubigeo-inei-peru.html"><!--ejemplo de nombre geográfico para Tacna-->230101</Subject>
+					<Keyword xml:lang="es">EXTINCIÓN</Keyword>
+					<Keyword xml:lang="es">MIGRACIÓN</Keyword>
+					<Keyword xml:lang="es">CONSERVACIÓN</Keyword>
+					<Keyword xml:lang="es">GENÉTICA</Keyword>
+					<Keyword xml:lang="es">BIODIVERSIDAD</Keyword>
+					<Keyword xml:lang="es">GUANACO</Keyword>
+					<Abstract xml:lang="es">EL GUANACO (L. G. CACSILENSIS) ES UNA ESPECIE SILVESTRE QUE SE ENCUENTRA EN PELIGRO CRÍTICO DE EXTINCIÓN EN EL PERÚ, CON MENOS DE 3000 INDIVIDUOS DISTRIBUIDOS EN POBLACIONES PEQUEÑAS, APARENTEMENTE AISLADAS, DESDE LA RN DE CALIPUY (LA LIBERTAD), HASTA LA FRONTERA CON CHILE (TACNA). SIN EMBARGO, A PESAR DE LA SITUACIÓN CRÍTICA DE LA ESPECIE, ESTUDIOS PRELIMINARES REALIZADOS POR CONOPA, INDICAN NIVELES DE VARIABILIDAD GENÉTICA SUPERIORES A LO REPORTADO PARA ESPECIES SILVESTRES CON FLUJO GÉNICO NORMAL, ASÍ COMO EVIDENCIA NO CONCLUYENTE SOBRE SUBDIVISIONES POBLACIONALES. EL OBJETIVO DEL PROYECTO ES DETERMINAR LA VARIABILIDAD GENÉTICA DE POBLACIONES DE GUANACOS Y SU RELACIÓN CON LA ECOLOGÍA ESPACIAL DE LA ESPECIE EN EL PERÚ. PARA ESTO SE ANALIZARÁ EL ADN MICROSATÉLITE Y MITOCONDRIAL DE GUANACOS CORRESPONDIENTES A 6 POBLACIONES, PRINCIPALMENTE AQUELLAS AL BORDE DE LA EXTINCIÓN Y/O EN ECOSISTEMAS PARTICULARES, BUSCANDO AMPLIAR LA EVIDENCIA DE VARIABILIDAD GENÉTICA DE LA ESPECIE. ASIMISMO SE ESTUDIARÁ LA ECOLOGÍA ESPACIAL DEL GUANACO EN 3 ECORREGIONES MEDIANTE EL MONITOREO DURANTE 2 AÑOS DE INDIVIDUOS MARCADOS CON COLLARES SATELITALES, LO QUE PERMITIRÁ DEFINIR EL RANGO HOGAR, SELECCIÓN DE HÁBITAT, PATRONES DE DESPLAZAMIENTO Y PERIODOS DE ACTIVIDAD DE LA ESPECIE EN RELACIÓN AL HÁBITAT Y A LAS TEMPORADAS CLIMÁTICAS. LA INTEGRACIÓN DE LOS RESULTADOS PERMITIRÁ ENTENDER LAS RELACIONES GENÉTICAS Y ESPACIALES DE LAS POBLACIONES DE GUANACOS ASÍ COMO EL DESARROLLO DE MEDIDAS DE CONSERVACIÓN.
+					</Abstract>
+				</Project>
+			</metadata>
+		</record>
 	</ListRecords>
 </OAI-PMH>
